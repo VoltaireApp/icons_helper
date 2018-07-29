@@ -1,0 +1,6 @@
+name: generate_json_maps_helper
+description: Generates static json maps for Icons classes (material and fontawesome for now).
+version: 0.0.1
+author: Basit Mustafa <basit.mustafa@gmail.com>
+homepage: https://voltaireapp.com
+

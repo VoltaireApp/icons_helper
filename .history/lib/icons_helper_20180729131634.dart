@@ -5,10 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 IconData getIconUsingPrefix({String name})
 {
   List<String> split = name.split(".");
-
+  name = split[1];
   if(split.length > 1)
   {
-    name = split[1];
     if(split[0].toLowerCase() == "fa" || split[0].toLowerCase() == "fontawesome")
     {
       return getFontAwesomeIcon(name:name);

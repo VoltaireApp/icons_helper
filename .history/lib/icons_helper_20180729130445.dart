@@ -2,43 +2,14 @@ library icons_helper;
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-IconData getIconUsingPrefix({String name})
+IconData getIcon({String name, useFontAwesome:false})
 {
-  List<String> split = name.split(".");
-  
-  if(split.length > 1)
-  {
-    if(split[0].toLowerCase() == "fa" || split[0].toLowerCase() == "fontawesome")
-    {
-      return getFontAwesomeIcon(name:name);
-    }
-  }
-  else
-  {
-    return getIconGuessFavorMaterial(name:name);
-  }
-
-  return getMaterialIcon(name:name);
-}
-
-IconData getIconGuessFavorFA({String name})
-{
-  if(FontAwesomeIconsMap[name] != null)
+  if(useFontAwesome)
   {
     return FontAwesomeIconsMap[name];
   }
   else{
     return IconsMap[name];
-  }
-}
-IconData getIconGuessFavorMaterial({String name})
-{
-  if(IconsMap[name] != null)
-  {
-    return IconsMap[name];
-  }
-  else{
-    return FontAwesomeIconsMap[name];
   }
 }
 

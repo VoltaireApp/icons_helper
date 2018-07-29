@@ -1317,7 +1317,8 @@ const FontAwesomeIconsMap = {'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
 'yoast': FontAwesomeIcons.yoast,
 'youtube': FontAwesomeIcons.youtube,
 'youtubeSquare': FontAwesomeIcons.youtubeSquare,
-};
+'youtube': FontAwesomeIcons.youtube,
+'youtubeSquare': FontAwesomeIcons.youtubeSquare,}
 
 const IconsMap = {'ac_unit':Icons.ac_unit,
 'access_alarm':Icons.access_alarm,
@@ -2303,4 +2304,4 @@ const IconsMap = {'ac_unit':Icons.ac_unit,
 'youtube_searched_for':Icons.youtube_searched_for,
 'zoom_in':Icons.zoom_in,
 'zoom_out':Icons.zoom_out,
-'zoom_out_map':Icons.zoom_out_map};
+'zoom_out_map':Icons.zoom_out_map}

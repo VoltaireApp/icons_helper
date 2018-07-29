@@ -1317,7 +1317,8 @@ const FontAwesomeIconsMap = {'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
 'yoast': FontAwesomeIcons.yoast,
 'youtube': FontAwesomeIcons.youtube,
 'youtubeSquare': FontAwesomeIcons.youtubeSquare,
-};
+'youtube': FontAwesomeIcons.youtube,
+'youtubeSquare': FontAwesomeIcons.youtubeSquare,}
 
 const IconsMap = {'ac_unit':Icons.ac_unit,
 'access_alarm':Icons.access_alarm,

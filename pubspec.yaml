@@ -1,6 +1,6 @@
 name: icons_helper
-description: This package's use case is to provide access to the full library of Icons and FontAwesomeIcons at runtime when the specific icons needed are not known at compile time. As such, all Tree Shaking is totally worked around/defeated for Icons and FontAwesomeIcons, so know that before you use the library. But since in our application, for example, the icon names come in from our backend and we don't want to have to re-release each time it specifies a new icon, we are GOOD with that. This is intentional so we can specify a new icon to be displayed just by sending that new text string in our push notification/record. This is a convenience package that provides bracket notiation access to Material Design Icons and Font Awesome Flutter icons (via @brianegan's font_awesome_flutter package). For now, I have just statically generated the Map to map string names to member names. This means any new icons won't be automatically discovered. There's a way to use codegen and mirror in a non-flutter dart app to generate this and then output/maintain them, but just using a google sheet and cut and pasting was faster for something I personally don't need to update often. That sheet is here at https://docs.google.com/spreadsheets/d/1IpWJytpkrJI9_9hwPKY5oXJLRLGjQuG3pUP7eUIqHn4/edit?usp=sharing. I started writing such a utility but gave up because it wasn't worth the time.
-version: 0.0.4
+description: This package's use case is to provide access to the full library of Icons and FontAwesomeIcons at runtime when the specific icons needed are not known at compile time. See the README.md for important information about this.
+version: 0.0.5
 author: Basit Mustafa <basit.mustafa@gmail.com>
 homepage: https://github.com/VoltaireApp/icons_helper
 
@@ -18,7 +18,7 @@ dev_dependencies:
   test: any
 
 environment:
-  sdk: ">=1.19.0 <2.0.0"
+  sdk: ">=1.19.0 <3.0.0"
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 

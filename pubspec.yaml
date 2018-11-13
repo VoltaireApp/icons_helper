@@ -1,24 +1,24 @@
 name: icons_helper
 description: This provides access to the full library of Icons & FontAwesomeIcons at runtime when the specific icons needed are not known at compile time.
-version: 0.0.8
+version: 0.0.9
 author: Basit Mustafa <basit.mustafa@gmail.com>
 homepage: https://github.com/VoltaireApp/icons_helper
 
 dependencies:
   flutter:
-    sdk: "flutter"
+    sdk: 'flutter'
 
-  font_awesome_flutter: "^8.0.1"
+  font_awesome_flutter: 8.2.0
   flutter_driver:
     sdk: flutter
-   
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   test: any
 
 environment:
-  sdk: ">=1.19.0 <3.0.0"
+  sdk: '>=1.19.0 <3.0.0'
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
@@ -35,7 +35,6 @@ flutter:
   #
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
-
   # To add custom fonts to your package, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a

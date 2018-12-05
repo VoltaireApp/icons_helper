@@ -6,18 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab017f8-950c-4af3-b3e1-7dee1bd7ddef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729111331.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729111331.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114427.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114427.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114441.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114441.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114530.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114530.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114745.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114745.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121101.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121101.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121109.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121109.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121139.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121139.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121225.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121225.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/icons_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icons_by_name.dart" afterDir="false" />
-    </list>
+    <list default="true" id="cab017f8-950c-4af3-b3e1-7dee1bd7ddef" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -34,8 +23,8 @@
       <file leaf-file-name="icons_by_name.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/icons_by_name.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="152">
+              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
               <folding>
                 <element signature="e#23#62#0" expanded="true" />
               </folding>
@@ -225,7 +214,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-12" width="1920" height="1177" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962963" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3287037" />
@@ -236,11 +224,11 @@
       <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962963" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32962963" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45555556" />
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12726304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12726304" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -300,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/icons_by_name.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="152">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
           <folding>
             <element signature="e#23#62#0" expanded="true" />
           </folding>

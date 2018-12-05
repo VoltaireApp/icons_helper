@@ -960,7 +960,6 @@ const FontAwesomeIconsMap = {
   'redoAlt': FontAwesomeIcons.redoAlt,
   'registered': FontAwesomeIcons.registered,
   'solidRegistered': FontAwesomeIcons.solidRegistered,
-  'rendact': FontAwesomeIcons.rendact,
   'renren': FontAwesomeIcons.renren,
   'reply': FontAwesomeIcons.reply,
   'replyAll': FontAwesomeIcons.replyAll,

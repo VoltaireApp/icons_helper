@@ -1,4 +1,4 @@
-name: icons_helper
+name: icons_by_name
 description: This provides access to the full library of Icons & FontAwesomeIcons at runtime when the specific icons needed are not known at compile time.
 version: 0.1.0
 author: Hussein Abdallah <husseinabdallah104@gmail.com>

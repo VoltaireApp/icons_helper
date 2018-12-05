@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab017f8-950c-4af3-b3e1-7dee1bd7ddef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729111331.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729111331.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114427.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114427.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114441.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114441.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114530.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114530.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114745.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729114745.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121101.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121101.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121109.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121109.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121139.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121139.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121225.dart" beforeDir="false" afterPath="$PROJECT_DIR$/.history/test/icons_helper_test_20180729121225.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icons_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/icons_by_name.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -23,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="icons_helper.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/icons_helper.dart">
+      <file leaf-file-name="icons_by_name.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/icons_by_name.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#23#62#0" expanded="true" />
               </folding>
@@ -44,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -75,6 +83,7 @@
         <option value="$PROJECT_DIR$/lib/icons_helper.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/icons_by_name.dart" />
       </list>
     </option>
   </component>
@@ -98,6 +107,11 @@
             <path>
               <item name="icons_helper" type="b2602c69:ProjectViewProjectNode" />
               <item name="icons_helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="icons_helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="icons_helper" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +259,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/icons_helper.dart">
+    <entry file="file://$PROJECT_DIR$/lib/icons_by_name.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -270,16 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/icons_helper.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#23#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -291,6 +295,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/icons_by_name.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#23#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

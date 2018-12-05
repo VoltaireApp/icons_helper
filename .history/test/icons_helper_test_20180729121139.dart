@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 import 'dart:mirrors' as mirrors;
 import 'package:flutter/material.dart';
-import 'package:icons_helper/icons_helper.dart';
+import 'package:icons_helper/icons_by_name.dart';
 
 void main() {
   print("Generating json files...");

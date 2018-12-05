@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-import 'package:icons_helper/icons_helper.dart';
+import 'package:icons_helper/icons_by_name.dart';
 
 void main() {
   test('adds one to input values', () {

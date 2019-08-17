@@ -93,9 +93,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           // Will return the font awesome icon named fiveHundredPx, if that didn't exist, it will try for the same in bundled icons, otherwise null
 
-          children: <Widget>[ Icon(getIconUsingPrefix(name:'fa.fiveHundredPx'), color: Theme.of(context).backgroundColor, size: 128.0),
-
-      Text(
+          children: <Widget>[
+            Icon(getIconUsingPrefix(name: 'fa.fiveHundredPx'),
+                color: Theme.of(context).backgroundColor, size: 128.0),
+            Text(
               'There should be an icon above. It\'s neat, isn\'t?\n\nYou can also push the + button and increment this counter for fun:',
             ),
             Text(

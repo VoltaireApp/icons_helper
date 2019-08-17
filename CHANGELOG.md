@@ -1,3 +1,8 @@
+## [1.0.3] -  Code Formatting
+
+* Just formatting
+
+
 ## [1.0.2] -  Now with 100% more example apps! Oh wait, 100% of 0 is still 0, uh, ok, an example app. And code comments!
 
 *  Now with 100% more example apps! Oh wait, 100% of 0 is still 0, uh, ok, an example app.

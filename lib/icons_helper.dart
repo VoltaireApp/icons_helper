@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 IconData getIconUsingPrefix({String name}) {
-  List<String> split = name.split(".");
+  final List<String> split = name.split('.');
 
   if (split.length > 1) {
     name = split[1];
-    if (split[0].toLowerCase() == "fa" ||
-        split[0].toLowerCase() == "fontawesome") {
+    if (split[0].toLowerCase() == 'fa' ||
+        split[0].toLowerCase() == 'fontawesome') {
       return getFontAwesomeIcon(name: name);
     }
   } else {
@@ -43,7 +43,7 @@ IconData getFontAwesomeIcon({String name}) {
   return FontAwesomeIconsMap[name];
 }
 
-const FontAwesomeIconsMap = {
+const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
   'accessibleIcon': FontAwesomeIcons.accessibleIcon,
   'accusoft': FontAwesomeIcons.accusoft,
@@ -960,7 +960,6 @@ const FontAwesomeIconsMap = {
   'redoAlt': FontAwesomeIcons.redoAlt,
   'registered': FontAwesomeIcons.registered,
   'solidRegistered': FontAwesomeIcons.solidRegistered,
-  'rendact': FontAwesomeIcons.rendact,
   'renren': FontAwesomeIcons.renren,
   'reply': FontAwesomeIcons.reply,
   'replyAll': FontAwesomeIcons.replyAll,
@@ -1311,7 +1310,7 @@ const FontAwesomeIconsMap = {
   'youtubeSquare': FontAwesomeIcons.youtubeSquare,
 };
 
-const IconsMap = {
+const Map<String, IconData> IconsMap = <String, IconData>{
   'ac_unit': Icons.ac_unit,
   'access_alarm': Icons.access_alarm,
   'access_alarms': Icons.access_alarms,

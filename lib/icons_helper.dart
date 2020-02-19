@@ -1753,7 +1753,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'hardHat': FontAwesomeIcons.hardHat,
   'hashtag': FontAwesomeIcons.hashtag,
   'hatWizard': FontAwesomeIcons.hatWizard,
-  'haykal': FontAwesomeIcons.haykal,
   'hdd': FontAwesomeIcons.hdd,
   'solidHdd': FontAwesomeIcons.solidHdd,
   'heading': FontAwesomeIcons.heading,

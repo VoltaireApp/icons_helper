@@ -1,7 +1,6 @@
 name: icons_helper
 description: This provides access to the full library of Icons & FontAwesomeIcons at runtime when the specific icons needed are not known at compile time.
-version: 1.0.3
-author: Basit Mustafa <basit.mustafa@gmail.com>
+version: 1.0.4
 homepage: https://github.com/VoltaireApp/icons_helper
 
 dependencies:

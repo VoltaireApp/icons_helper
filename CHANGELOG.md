@@ -1,3 +1,8 @@
+
+## [1.0.4] - Fixes for latest version of Font Awesome
+
+* It works now...
+
 ## [1.0.3] -  Code Formatting
 
 * Just formatting

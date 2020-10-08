@@ -1,4 +1,8 @@
 
+## [1.0.6] - Using `font_awesome_flutter`
+
+* Using `font_awesome_flutter` >= 8.10.0 (which is stable)
+
 ## [1.0.5] - Fixes for latest version of Font Awesome
 
 * `FontAwesomeIcons.adobe` removed

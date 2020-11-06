@@ -11,8 +11,7 @@ IconData getIconUsingPrefix({String name}) {
 
   if (split.length > 1) {
     name = split[1];
-    if (split[0].toLowerCase() == 'fa' ||
-        split[0].toLowerCase() == 'fontawesome') {
+    if (split[0].toLowerCase() == 'fa' || split[0].toLowerCase() == 'fontawesome') {
       return getFontAwesomeIcon(name: name);
     }
   } else {
@@ -850,8 +849,7 @@ const Map<String, IconData> IconsMap = <String, IconData>{
   'shuffle': Icons.shuffle,
   'shutter_speed': Icons.shutter_speed,
   'signal_cellular_4_bar': Icons.signal_cellular_4_bar,
-  'signal_cellular_connected_no_internet_4_bar':
-      Icons.signal_cellular_connected_no_internet_4_bar,
+  'signal_cellular_connected_no_internet_4_bar': Icons.signal_cellular_connected_no_internet_4_bar,
   'signal_cellular_no_sim': Icons.signal_cellular_no_sim,
   'signal_cellular_null': Icons.signal_cellular_null,
   'signal_cellular_off': Icons.signal_cellular_off,
@@ -1040,7 +1038,7 @@ const Map<String, IconData> IconsMap = <String, IconData>{
   'zoom_out_map': Icons.zoom_out_map
 };
 
-/// Icon data map for FontAwesome (currently 5.5)
+/// Icon data map for FontAwesome
 const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
   'accessibleIcon': FontAwesomeIcons.accessibleIcon,
@@ -1053,7 +1051,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'solidAddressCard': FontAwesomeIcons.solidAddressCard,
   'adjust': FontAwesomeIcons.adjust,
   'adn': FontAwesomeIcons.adn,
-  'adobe': FontAwesomeIcons.adobe,
   'adversal': FontAwesomeIcons.adversal,
   'affiliatetheme': FontAwesomeIcons.affiliatetheme,
   'airFreshener': FontAwesomeIcons.airFreshener,
@@ -1068,8 +1065,7 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'amazon': FontAwesomeIcons.amazon,
   'amazonPay': FontAwesomeIcons.amazonPay,
   'ambulance': FontAwesomeIcons.ambulance,
-  'americanSignLanguageInterpreting':
-      FontAwesomeIcons.americanSignLanguageInterpreting,
+  'americanSignLanguageInterpreting': FontAwesomeIcons.americanSignLanguageInterpreting,
   'amilia': FontAwesomeIcons.amilia,
   'anchor': FontAwesomeIcons.anchor,
   'android': FontAwesomeIcons.android,
@@ -1602,9 +1598,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'fontAwesome': FontAwesomeIcons.fontAwesome,
   'fontAwesomeAlt': FontAwesomeIcons.fontAwesomeAlt,
   'fontAwesomeFlag': FontAwesomeIcons.fontAwesomeFlag,
-  'fontAwesomeLogoFull': FontAwesomeIcons.fontAwesomeLogoFull,
-  'solidFontAwesomeLogoFull': FontAwesomeIcons.solidFontAwesomeLogoFull,
-  'brandsFontAwesomeLogoFull': FontAwesomeIcons.brandsFontAwesomeLogoFull,
   'fonticons': FontAwesomeIcons.fonticons,
   'fonticonsFi': FontAwesomeIcons.fonticonsFi,
   'footballBall': FontAwesomeIcons.footballBall,

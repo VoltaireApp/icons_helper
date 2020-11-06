@@ -1,4 +1,12 @@
 
+## [1.0.6] - Using `font_awesome_flutter`
+
+* Using `font_awesome_flutter` >= 8.10.0 (which is stable)
+
+## [1.0.5] - Fixes for latest version of Font Awesome
+
+* `FontAwesomeIcons.adobe` removed
+
 ## [1.0.4] - Fixes for latest version of Font Awesome
 
 * It works now...
@@ -6,7 +14,6 @@
 ## [1.0.3] -  Code Formatting
 
 * Just formatting
-
 
 ## [1.0.2] -  Now with 100% more example apps! Oh wait, 100% of 0 is still 0, uh, ok, an example app. And code comments!
 

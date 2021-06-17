@@ -1,6 +1,6 @@
-## [1.1.0] - Null-safety
+## [1.2.0-nullsafety.1] - Null-safety
 
-* Migrating to null-safety
+* Migrating to null-safety - will stay as pre-release until dependent libs are non-prerelease status.
 
 ## [1.0.6] - Using `font_awesome_flutter`
 

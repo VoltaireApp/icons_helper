@@ -15,4 +15,5 @@ doc/api/
 .idea/**
 android/local.properties
 
-example/ios/Flutter/
+example/ios/Flutter
+example/build/

@@ -1,3 +1,6 @@
+## [1.1.0] - Null-safety
+
+* Migrating to null-safety
 
 ## [1.0.6] - Using `font_awesome_flutter`
 

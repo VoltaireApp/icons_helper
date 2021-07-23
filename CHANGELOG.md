@@ -1,3 +1,7 @@
+## [1.2.1] - Null-safety
+
+* Bump dependence version
+
 ## [1.2.0-nullsafety.1] - Null-safety
 
 * Migrating to null-safety - will stay as pre-release until dependent libs are non-prerelease status.

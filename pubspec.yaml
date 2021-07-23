@@ -1,12 +1,12 @@
 name: icons_helper
 description: This provides access to the full library of Icons & FontAwesomeIcons at runtime when the specific icons needed are not known at compile time.
-version: 1.2.0-nullsafety.1
+version: 1.2.1
 homepage: https://github.com/VoltaireApp/icons_helper
 
 dependencies:
   flutter:
     sdk: 'flutter'
-  font_awesome_flutter: ^9.0.0-nullsafety
+  font_awesome_flutter: ^9.1.0
 
 dev_dependencies:
   flutter_test:

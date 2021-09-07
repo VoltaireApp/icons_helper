@@ -1,15 +1,12 @@
 name: icons_helper
 description: This provides access to the full library of Icons & FontAwesomeIcons at runtime when the specific icons needed are not known at compile time.
-version: 1.0.4
+version: 1.2.0-nullsafety.1
 homepage: https://github.com/VoltaireApp/icons_helper
 
 dependencies:
   flutter:
     sdk: 'flutter'
-
-  font_awesome_flutter: ^8.5.0
-  flutter_driver:
-    sdk: flutter
+  font_awesome_flutter: ^9.0.0-nullsafety
 
 dev_dependencies:
   flutter_test:
@@ -17,7 +14,7 @@ dev_dependencies:
   test: any
 
 environment:
-  sdk: '>=1.19.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 

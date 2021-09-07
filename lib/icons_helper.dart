@@ -6,13 +6,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 // Returns an icon by examining the name for the format ICON_LIBRARY.ICON_NAME and if not, looks for a Material icon of the ICON_NAME
 // For example fa.fiveHundredPx returns the icon named fiveHundredPx in the FontAwesome lib, if it didn't exist, it'd try to return the material icon named fiveHundredPx, otherwise you get null.
 // If you don't use the dot notation described it will attempt to get you an icon favoring the Material icon set using getIconGuessFavorMaterial
-IconData getIconUsingPrefix({String name}) {
+IconData? getIconUsingPrefix({required String name}) {
   final List<String> split = name.split('.');
 
   if (split.length > 1) {
     name = split[1];
-    if (split[0].toLowerCase() == 'fa' ||
-        split[0].toLowerCase() == 'fontawesome') {
+    if (split[0].toLowerCase() == 'fa' || split[0].toLowerCase() == 'fontawesome') {
       return getFontAwesomeIcon(name: name);
     }
   } else {
@@ -23,7 +22,7 @@ IconData getIconUsingPrefix({String name}) {
 }
 
 // Returns an icon named in name favoring Font Awesome
-IconData getIconGuessFavorFA({String name}) {
+IconData? getIconGuessFavorFA({required String name}) {
   if (FontAwesomeIconsMap[name] != null) {
     return FontAwesomeIconsMap[name];
   } else {
@@ -32,7 +31,7 @@ IconData getIconGuessFavorFA({String name}) {
 }
 
 // Returns an icon named in name favoring Material
-IconData getIconGuessFavorMaterial({String name}) {
+IconData? getIconGuessFavorMaterial({required String name}) {
   if (IconsMap[name] != null) {
     return IconsMap[name];
   } else {
@@ -41,12 +40,12 @@ IconData getIconGuessFavorMaterial({String name}) {
 }
 
 // Kinda self explanatory, no?
-IconData getMaterialIcon({String name}) {
+IconData? getMaterialIcon({required String name}) {
   return IconsMap[name];
 }
 
 // Kinda self explanatory, no?
-IconData getFontAwesomeIcon({String name}) {
+IconData? getFontAwesomeIcon({required String name}) {
   return FontAwesomeIconsMap[name];
 }
 
@@ -850,8 +849,7 @@ const Map<String, IconData> IconsMap = <String, IconData>{
   'shuffle': Icons.shuffle,
   'shutter_speed': Icons.shutter_speed,
   'signal_cellular_4_bar': Icons.signal_cellular_4_bar,
-  'signal_cellular_connected_no_internet_4_bar':
-      Icons.signal_cellular_connected_no_internet_4_bar,
+  'signal_cellular_connected_no_internet_4_bar': Icons.signal_cellular_connected_no_internet_4_bar,
   'signal_cellular_no_sim': Icons.signal_cellular_no_sim,
   'signal_cellular_null': Icons.signal_cellular_null,
   'signal_cellular_off': Icons.signal_cellular_off,
@@ -1040,7 +1038,7 @@ const Map<String, IconData> IconsMap = <String, IconData>{
   'zoom_out_map': Icons.zoom_out_map
 };
 
-/// Icon data map for FontAwesome (currently 5.5)
+/// Icon data map for FontAwesome
 const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
   'accessibleIcon': FontAwesomeIcons.accessibleIcon,
@@ -1068,8 +1066,7 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'amazon': FontAwesomeIcons.amazon,
   'amazonPay': FontAwesomeIcons.amazonPay,
   'ambulance': FontAwesomeIcons.ambulance,
-  'americanSignLanguageInterpreting':
-      FontAwesomeIcons.americanSignLanguageInterpreting,
+  'americanSignLanguageInterpreting': FontAwesomeIcons.americanSignLanguageInterpreting,
   'amilia': FontAwesomeIcons.amilia,
   'anchor': FontAwesomeIcons.anchor,
   'android': FontAwesomeIcons.android,

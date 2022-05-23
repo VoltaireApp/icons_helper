@@ -11,7 +11,8 @@ IconData? getIconUsingPrefix({required String name}) {
 
   if (split.length > 1) {
     name = split[1];
-    if (split[0].toLowerCase() == 'fa' || split[0].toLowerCase() == 'fontawesome') {
+    if (split[0].toLowerCase() == 'fa' ||
+        split[0].toLowerCase() == 'fontawesome') {
       return getFontAwesomeIcon(name: name);
     }
   } else {
@@ -848,7 +849,8 @@ const Map<String, IconData> IconsMap = <String, IconData>{
   'shuffle': Icons.shuffle,
   'shutter_speed': Icons.shutter_speed,
   'signal_cellular_4_bar': Icons.signal_cellular_4_bar,
-  'signal_cellular_connected_no_internet_4_bar': Icons.signal_cellular_connected_no_internet_4_bar,
+  'signal_cellular_connected_no_internet_4_bar':
+      Icons.signal_cellular_connected_no_internet_4_bar,
   'signal_cellular_no_sim': Icons.signal_cellular_no_sim,
   'signal_cellular_null': Icons.signal_cellular_null,
   'signal_cellular_off': Icons.signal_cellular_off,
@@ -1042,7 +1044,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
   'accessibleIcon': FontAwesomeIcons.accessibleIcon,
   'accusoft': FontAwesomeIcons.accusoft,
-  'acquisitionsIncorporated': FontAwesomeIcons.acquisitionsIncorporated,
   'ad': FontAwesomeIcons.ad,
   'addressBook': FontAwesomeIcons.addressBook,
   'solidAddressBook': FontAwesomeIcons.solidAddressBook,
@@ -1064,7 +1065,8 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'amazon': FontAwesomeIcons.amazon,
   'amazonPay': FontAwesomeIcons.amazonPay,
   'ambulance': FontAwesomeIcons.ambulance,
-  'americanSignLanguageInterpreting': FontAwesomeIcons.americanSignLanguageInterpreting,
+  'americanSignLanguageInterpreting':
+      FontAwesomeIcons.americanSignLanguageInterpreting,
   'amilia': FontAwesomeIcons.amilia,
   'anchor': FontAwesomeIcons.anchor,
   'android': FontAwesomeIcons.android,
@@ -2040,7 +2042,7 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'penSquare': FontAwesomeIcons.penSquare,
   'pencilAlt': FontAwesomeIcons.pencilAlt,
   'pencilRuler': FontAwesomeIcons.pencilRuler,
-  'pennyArcade': FontAwesomeIcons.pennyArcade,
+  'pennyArcade': FontAwesomeIcons.pepperHot,
   'peopleCarry': FontAwesomeIcons.peopleCarry,
   'pepperHot': FontAwesomeIcons.pepperHot,
   'percent': FontAwesomeIcons.percent,
@@ -2418,7 +2420,6 @@ const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
   'trashRestoreAlt': FontAwesomeIcons.trashRestoreAlt,
   'tree': FontAwesomeIcons.tree,
   'trello': FontAwesomeIcons.trello,
-
   'trophy': FontAwesomeIcons.trophy,
   'truck': FontAwesomeIcons.truck,
   'truckLoading': FontAwesomeIcons.truckLoading,

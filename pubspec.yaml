@@ -6,7 +6,7 @@ homepage: https://github.com/VoltaireApp/icons_helper
 dependencies:
   flutter:
     sdk: 'flutter'
-  font_awesome_flutter: ^9.0.0-nullsafety
+  font_awesome_flutter: ^10.1.0
 
 dev_dependencies:
   flutter_test:
